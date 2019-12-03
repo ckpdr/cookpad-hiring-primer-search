@@ -1,4 +1,4 @@
-# Technical Exercise Process
+# Cookpad - Search - Technical exercise process
 
 Someone from our technical team will grant you access to a private Github repo at a time that's
 been pre-arranged with you. The repo will contain the instructions with the problem's description and
