@@ -7,7 +7,7 @@ exercise. By the end of this guide, you will be able to:
 - Install some placeholder dependencies from that environment, using the Pipfile and required Python version.
 - Build and run Docker containers with docker-compose
 
-## Instructions
+## Python Setup
 
 ### Pipenv installation
 
@@ -59,7 +59,7 @@ $ pipenv shell
 python 3.7
 ```
 
-## Troubleshooting
+### Python troubleshooting
 
 In case `pipenv install` command outputs:
 
@@ -81,9 +81,37 @@ $ pyenv local 3.7
 
 Now `pipenv install` should produce the expected result.
 
+## Docker Desktop setup
+
 ### Docker Desktop installation
 
 You can follow the instructions to install Docker Desktop tools for:
  - Mac [here](https://docs.docker.com/docker-for-mac/install/)
  - Windows [here](https://docs.docker.com/docker-for-windows/install/)
 
+### Build and run Docker containers
+
+Open a shell in the root of this repo and execute:
+
+```bash
+docker-compose up -d
+```
+
+This may take a few minutes the first time as Docker pulls layers locally, but these should be cached for next time.
+
+Once successful you should see messages similar to the following:
+
+```
+Creating network "cookpad-hiring-primer-search_elk" with driver "bridge"
+Creating cookpad-hiring-primer-search_elasticsearch_1 ... done
+Creating cookpad-hiring-primer-search_kibana_1        ... done
+```
+
+Once complete, you should be able to access Kibana using the default username and password, `elastic /  changeme`, 
+at http://localhost:19200.
+
+### Docker troubleshooting
+
+- If you receive an error message similar to `Bind for 0.0.0.0:19200 failed: port is already allocated` then you may need
+ to adjust the port for Elastic (ELASTIC_PORT) or Kibana (KIBANA_PORT) in the .env file and try again. You may need to repeat
+ the config change in the exercise repo you receive.
