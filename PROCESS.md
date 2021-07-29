@@ -44,7 +44,7 @@ During the exercise:
 
 To submit the exercise:
 
-- Create a Ppull Request from your fork back to the original Cookpad repository. We can only
+- Create a Pull Request from your fork back to the original Cookpad repository. We can only
   consider commits that you send us, so **don't forget to push your final commits**! If you prefer to create the pull request to the repo immediately, before beginning work on the solution, that is also fine. We won't review it until you let us know you're done.
 
 ## Follow up
