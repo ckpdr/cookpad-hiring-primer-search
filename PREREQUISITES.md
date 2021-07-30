@@ -109,7 +109,7 @@ Creating cookpad-hiring-primer-search_kibana_1        ... done
 ```
 
 Once complete, you should be able to access Kibana using the default username and password, `elastic /  changeme`, 
-at http://localhost:19200.
+at http://localhost:15601 (with the ElasticSearch endpoints at http://localhost:19200).
 
 Once complete, you can stop and remove the containers as follows:
 
