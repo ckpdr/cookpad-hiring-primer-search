@@ -9,7 +9,7 @@ Guidelines to understand how the process works for the technical exercise
 [here](PROCESS.md).
 
 In case you are applying for a role more focused on search relevance, it's likely that you'll use Elasticsearch as part of this exercise. 
-If you're not an occasional user of Elasticsearch, it would be helpful to spend just a bit of time familiarizing yourself with the [Elasticsearch DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html) for building queries.
+If you're not a regular user of Elasticsearch, it would be helpful to spend just a bit of time familiarizing yourself with the [Elasticsearch DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html) for building queries.
 
 Finally, to access the technical exercise itself, you'll need to have [2FA set up](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) 
 on your GitHub account.
